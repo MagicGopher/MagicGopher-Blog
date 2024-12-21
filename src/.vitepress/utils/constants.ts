@@ -42,17 +42,11 @@ export const SidebarConstants = {
     Tools: '/docs/zh/常用工具/',
 }
 
-// 侧边栏不显示的文件常量
-export const SidebarBlacklist: string[] = [
-    // index.md文件在侧边栏不显示
-    'index.md',
-];
-
 // 要插入 <BackTop /> 组件的路径数组
 export const specificPaths = [
     // 格式：'/src/docs/zh/编程语言/'
-    '/src/docs/zh/后端/',
-    '/src/docs/zh/前端/',
+    '/src/docs/zh/Go专题/',
+    '/src/docs/zh/Java专题/',
     '/src/docs/zh/DevOps/',
     '/src/docs/zh/常用工具/',
     '/src/docs/zh/关于我/',
